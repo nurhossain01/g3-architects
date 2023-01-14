@@ -89,4 +89,56 @@ ul {
   height: 100%;
 }
 
+/* quick list start */
+.our-features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 200px 100px;
+  margin: 0 auto;
+}
+.quick-list-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 600px;
+  gap: 20px;
+  padding-top: 100px;
+}
+.quick-list-img img{
+  width: 100%;
+}
+.quick-list{
+  max-width: 400px;
+}
+.quick-list h3{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  padding-bottom: 20px;
+}
+.span-1{
+color: rgba(114, 114, 114, 1);
+}
+.span-2{
+  color: rgba(255, 144, 14, 1);
+}
+.quick-list p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  padding-bottom: 32px;
+}
+.quick-list button{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 21px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF900E;
+}
 
+/* services section style */

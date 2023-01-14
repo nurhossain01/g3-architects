@@ -321,3 +321,14 @@ ul {
 .logo > div img{
   width: 150px;
 }
+
+/* landing page style */
+.landing-page p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  background-color: cornsilk;
+  padding: 30px 0;
+  margin-bottom: 210px;
+}

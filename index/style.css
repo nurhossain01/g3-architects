@@ -215,7 +215,7 @@ ul {
   height: 900px;
 }
 
-.architect button{
+.architect button {
   padding: 30px 25px;
   position: relative;
   bottom: 66px;
@@ -223,10 +223,61 @@ ul {
   background-color: #FF900E;
   border: none;
   border-radius: 5px;
-  
+
 }
-.architect button h3{
+
+.architect button h3 {
   font-weight: 700;
   font-size: 30px;
   color: #FFFFFF;
+}
+.architect button p{
+  color: #ffff;
+  padding-top: 10px;
+}
+
+/* some facts style */
+.some-facts{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.facts h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  padding-bottom: 24px;
+}
+
+.facts p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  padding-bottom: 80px;
+}
+
+.facts-icons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  padding-bottom: 80px;
+ 
+}
+.fact-icon{
+text-align: center;
+background-color: darksalmon;
+border-radius: 5px;
+padding: 20px;
+position: relative;
+transition: .3s;
+}
+.fact-icon:hover{
+  transform: scale(1.2);
+}
+.fact-icon h5{
+  font-size: 25px;
+  color: #727272;
+}
+.fact-icon p{
+  color: antiquewhite;
 }

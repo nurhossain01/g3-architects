@@ -231,16 +231,18 @@ ul {
   font-size: 30px;
   color: #FFFFFF;
 }
-.architect button p{
+
+.architect button p {
   color: #ffff;
   padding-top: 10px;
 }
 
 /* some facts style */
-.some-facts{
+.some-facts {
   max-width: 1050px;
   margin: 0 auto;
 }
+
 .facts h3 {
   font-weight: 700;
   font-size: 45px;
@@ -256,28 +258,66 @@ ul {
   padding-bottom: 80px;
 }
 
-.facts-icons{
+.facts-icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
   padding-bottom: 80px;
- 
+  padding-top: 80px;
+
 }
-.fact-icon{
-text-align: center;
-background-color: darksalmon;
-border-radius: 5px;
-padding: 20px;
-position: relative;
-transition: .3s;
+
+.fact-icon {
+  text-align: center;
+  background-color: darksalmon;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  transition: .3s;
 }
-.fact-icon:hover{
+
+.fact-icon:hover {
   transform: scale(1.2);
 }
-.fact-icon h5{
+
+.fact-icon h5 {
   font-size: 25px;
   color: #727272;
 }
-.fact-icon p{
+
+.fact-icon p {
   color: antiquewhite;
+}
+
+/* company logo section style */
+.company-brand{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.company-info {
+  text-align: center;
+  padding-top: 80px;
+}
+.company-info h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  padding-bottom: 24px;
+}
+
+.company-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  padding-bottom: 50px;
+}
+.logo{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 130px;
+  padding-top: 100px;
+}
+.logo > div img{
+  width: 150px;
 }

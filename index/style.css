@@ -419,8 +419,8 @@ ul {
   }
   /* quick list responsive done */
   .our-features {
-    flex-direction: column;
-    padding: 0 25px 50px;
+    flex-direction: column-reverse;
+    padding: 60px 25px 0 50px;
   }
   .quick-list-img {
     grid-template-columns: repeat(1, 1fr);

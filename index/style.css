@@ -22,6 +22,7 @@ ul {
   margin: 0 auto;
 }
 
+
 /* header style start */
 .header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -236,11 +237,65 @@ ul {
   color: #ffff;
   padding-top: 10px;
 }
+/* extra section style */
+.our-goal{
+  text-align: center;
+  padding: 80px 100px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.our-goal h3{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-bottom: 4x;
+}
+.our-goal p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.data-science{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 50px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.data{
+  box-shadow: 00px 0px 5px black;
+  padding: 30px;
+  border-radius: 5px;
+  transition: .3s;
+  
+}
+.data:hover{
+  background-color: red;
+  transform: scale(1.1);
+}
+.data-info h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+.data-info p{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #727272;
+}
 
 /* some facts style */
 .some-facts {
   max-width: 1050px;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 .facts h3 {
@@ -290,7 +345,7 @@ ul {
 }
 
 /* company logo section style */
-.company-brand{
+.company-brand {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -312,23 +367,88 @@ ul {
   color: #727272;
   padding-bottom: 50px;
 }
-.logo{
+.logo {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding-bottom: 130px;
   padding-top: 100px;
 }
-.logo > div img{
+.logo > div img {
   width: 150px;
 }
 
-/* landing page style */
-.landing-page p{
+/* landing page footer style */
+.landing-page p {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   background-color: cornsilk;
-  padding: 30px 0;
-  margin-bottom: 210px;
+  padding: 80px 0;
 }
+
+/* handle responsive layout for only mobile device*/
+@media screen and (max-width:768px) {
+  /* header responsive done */
+  .header {
+    height: 100%;
+  }
+  .architects {
+    flex-direction: column;
+  }
+  .nav-link {
+    flex-direction: column;
+  }
+  .nav-link li {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .brand-new p{
+    padding: 30px 25px;
+  }
+  /* extra section responsive done */
+  .data-science{ 
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 100px;
+  }
+  /* quick list responsive done */
+  .our-features {
+    flex-direction: column;
+    padding: 0 25px 50px;
+  }
+  .quick-list-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* service section responsive done */
+  .provite-bast-service {
+    flex-direction: column;
+  }
+  .service-info {
+    margin-right: 0;
+  }
+  /* facts icons section responsive done */
+  .facts-icons {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fact-icon {
+    margin: 0 100px;
+  }
+  /* company logo section responsive done */
+  .company-info {
+    padding: 0 25px;
+  }
+  .logo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logo > div img{
+    padding-top: 50px;
+  }
+  
+  .text-align{
+    text-align: center;
+  }
+}
+
+
+
+

@@ -394,7 +394,7 @@ ul {
 
 
 /* handle responsive layout for only mobile device*/
-@media screen and (max-width:768px) {
+@media screen and (max-width: 778px) {
   /* header responsive done */
   .architects {
     flex-direction: column;
@@ -431,6 +431,7 @@ ul {
   }
   .service-info {
     margin-right: 0;
+    padding-top: 50px;
   }
   /* facts icons section responsive done */
   .facts-icons {
@@ -454,7 +455,7 @@ ul {
     text-align: center;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1400px){
+@media screen and (min-width: 779px) and (max-width: 1400px){
   .provite-bast-service{
     margin: 0 80px;
   }

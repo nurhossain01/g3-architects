@@ -27,7 +27,7 @@ ul {
   .header {
     background-color: rgba(255, 144, 14, 0.1);
     padding-top: 10px;
-    max-height: 950px;
+    
   }
   
   .architects {
@@ -394,9 +394,9 @@ ul {
 /* handle responsive layout for only mobile device*/
 @media screen and (max-width:768px) {
   /* header responsive done */
-  .header {
+  /* .header {
     height: 100%;
-  }
+  } */
   .architects {
     flex-direction: column;
   }

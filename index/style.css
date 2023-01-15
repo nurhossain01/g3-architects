@@ -90,11 +90,13 @@ ul {
   
   .brand {
     padding: 0 100px;
+    position: relative;
+    top: 100px;
   }
   
   .brand img {
     width: 100%;
-    height: 100%;
+    
   }
   
   /* quick list start */
@@ -394,9 +396,6 @@ ul {
 /* handle responsive layout for only mobile device*/
 @media screen and (max-width:768px) {
   /* header responsive done */
-  /* .header {
-    height: 100%;
-  } */
   .architects {
     flex-direction: column;
   }
@@ -409,6 +408,9 @@ ul {
   }
   .brand-new p{
     padding: 30px 25px;
+  }
+  .brand {
+    padding: 0  50px 30px;
   }
   /* extra section responsive done */
   .data-science{ 

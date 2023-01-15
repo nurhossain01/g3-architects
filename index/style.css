@@ -51,7 +51,7 @@ ul {
   }
   
   .nav-link li {
-    margin-left: 6em;
+    margin-left: 1em;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -121,6 +121,7 @@ ul {
   
   .quick-list {
     max-width: 400px;
+    margin-top: 60px;
   }
   
   .quick-list h3 {
@@ -213,13 +214,15 @@ ul {
   
   .architect img {
     width: 100%;
-    height: 900px;
+    height: 700px;
+    top: 160px;
+    position: relative;
   }
   
   .architect button {
     padding: 30px 25px;
     position: relative;
-    bottom: 66px;
+    top: 80px;
     right: 50px;
     background-color: #FF900E;
     border: none;
@@ -374,7 +377,7 @@ ul {
     padding-top: 100px;
   }
   .logo > div img {
-    width: 150px;
+    width: 100px;
   }
   
   /* landing page footer style */
@@ -389,7 +392,7 @@ ul {
 
 
 /* handle responsive layout for only mobile device*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
   /* header responsive done */
   .header {
     height: 100%;
@@ -450,9 +453,25 @@ ul {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1400px){
+  .provite-bast-service{
+    margin: 0 80px;
+  }
+.data-science{ 
+  margin: 0 80px;
+  }
+  .some-facts {
+   
+    margin: 0 80px;
+  }
+  .company-brand{
+    margin: 0 80px;
+  }
   
 }
 
 
 
+.hide{
+  display: none;
 
+}
